@@ -19,6 +19,7 @@
 
     <modules>
         <module>empty-project</module>
+        <module>activemq-project</module>
     </modules>
 
 
