@@ -27,9 +27,19 @@ mvn clean install
 ```
 Running Spring-boot:
 ```
-mvn spring-boot run
+mvn spring-boot:run
+```
+
+On startup, the queue should be created when the application subscribes to the non-existing queue
+    (Have not gone in and figured out the exact process here, but will if it becomes relevant)
+    
+Hitting this endpoint should drop a message in the queue, which will then be read multiple 
+    times (throwing an exception each time), and eventually go to the configured DLQ:
+```
+http://localhost:8080/sendMessage
 ```
 
 ## references
 https://activemq.apache.org/version-5-getting-started
+https://activemq.apache.org/message-redelivery-and-dlq-handling.html
 
