@@ -1,10 +1,10 @@
-package me.dfastje.emptyproject;
+package me.dfastje.activemqproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class EmptyProjectApplicationTests {
+class ActiveMQProjectApplicationTests {
 
 	@Test
 	void contextLoads() {
