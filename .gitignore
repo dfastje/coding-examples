@@ -7,3 +7,6 @@
 /empty-project/target/
 /swagger-project/swagger-project.iml
 /swagger-project/target/
+/spring-admin-project/target/
+/spring-admin-project/spring-admin-project.iml
+*.iml

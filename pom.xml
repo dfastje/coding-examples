@@ -22,6 +22,7 @@
         <module>activemq-project</module>
         <module>base-java-rest-endpoint-consumption-project</module>
         <module>swagger-project</module>
+        <module>spring-admin-project</module>
     </modules>
 
 
