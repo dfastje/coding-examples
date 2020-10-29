@@ -1,4 +1,4 @@
-package me.dfastje.restconsumptionproject;
+package me.dfastje.javarestconsumption;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

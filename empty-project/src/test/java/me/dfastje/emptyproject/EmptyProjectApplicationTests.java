@@ -1,4 +1,4 @@
-package me.dfastje.activemqproject;
+package me.dfastje.emptyproject;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

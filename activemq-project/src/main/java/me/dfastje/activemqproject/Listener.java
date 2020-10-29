@@ -1,11 +1,7 @@
 package me.dfastje.activemqproject;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import org.apache.activemq.RedeliveryPolicy;
 import org.apache.activemq.command.ActiveMQBytesMessage;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.context.annotation.Bean;
-import org.springframework.core.env.Environment;
 import org.springframework.jms.annotation.JmsListener;
 import org.springframework.stereotype.Component;
 
