@@ -21,6 +21,7 @@
         <module>empty-project</module>
         <module>activemq-project</module>
         <module>base-java-rest-endpoint-consumption-project</module>
+        <module>swagger-project</module>
     </modules>
 
 
